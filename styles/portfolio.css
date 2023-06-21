@@ -1,0 +1,50 @@
+:root {
+  --headline-font-family: "Rufina", serif;
+  --general-font-family: "Average Sans", sans-serif;
+  --main-color-dark: #003844;
+  --main-color-light: #ffb100;
+  --main-color-background: #eaf2e3;
+}
+
+.hero {
+  text-align: center;
+  margin: 160px 30px;
+  font-family: var(--general-font-family);
+  line-height: 1.5;
+}
+
+body {
+  background-color: var(--main-color-background);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--headline-font-family);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 66px;
+}
+
+h2 {
+  font-size: 30px;
+}
+.hero p {
+  font-size: 25px;
+}
+
+.btn-main-color {
+  background-color: var(--main-color-dark);
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-main-color:hover {
+  color: black;
+  background-color: var(--main-color-light);
+}
