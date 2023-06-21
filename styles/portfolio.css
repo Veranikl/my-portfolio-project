@@ -8,12 +8,9 @@
 
 .hero {
   text-align: center;
-  margin: 160px 30px;
+  padding: 160px 30px;
   font-family: var(--general-font-family);
   line-height: 1.5;
-}
-
-body {
   background-color: var(--main-color-background);
 }
 
@@ -28,9 +25,15 @@ h1 {
   font-size: 66px;
 }
 
-h2 {
+h2,
+h3 {
   font-size: 30px;
 }
+
+h3 {
+  font-weight: 600;
+}
+
 .hero p {
   font-size: 25px;
 }
@@ -47,4 +50,8 @@ h2 {
 .btn-main-color:hover {
   color: black;
   background-color: var(--main-color-light);
+}
+
+.project-description {
+  margin: 150px 30px;
 }
