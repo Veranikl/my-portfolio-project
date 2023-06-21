@@ -25,13 +25,13 @@ h1 {
   font-size: 66px;
 }
 
-h2,
-h3 {
+h2 {
   font-size: 30px;
 }
 
 h3 {
   font-weight: 600;
+  font-size: 34px;
 }
 
 .hero p {
@@ -42,7 +42,7 @@ h3 {
   background-color: var(--main-color-dark);
   color: #ffffff;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 27px;
   padding: 15px 30px;
 }
@@ -52,6 +52,26 @@ h3 {
   background-color: var(--main-color-light);
 }
 
-.project-description {
-  margin: 150px 30px;
+.btn-outline {
+  background-color: white;
+  border: 1px solid var(--main-color-dark);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-outline:hover {
+  background-color: var(--main-color-dark);
+  color: white;
+}
+
+.project-description p {
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .project-description {
+    text-align: center;
+  }
 }
