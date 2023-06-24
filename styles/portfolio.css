@@ -45,7 +45,8 @@
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--headline-font-family);
 }
 
@@ -130,6 +131,11 @@ footer a {
 
 footer a:hover {
   color: var(--main-color-light);
+}
+
+.contact-page footer a {
+  font-size: 50px;
+  padding: 20px 28px;
 }
 
 @media (max-width: 768px) {
