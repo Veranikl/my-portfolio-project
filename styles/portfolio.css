@@ -5,17 +5,33 @@
   --main-color-light: #ffb100;
   --main-color-background: #eaf2e3;
 }
+.navbar {
+  font-family: var(--general-font-family);
+  font-size: 20px;
+  background: #ffffff !important;
+}
+.navbar-brand {
+  font-family: var(--headline-font-family);
+  font-size: 33px;
+}
+.active {
+  color: var(--main-color-dark) !important;
+}
+
+.nav-item {
+  padding: 0px 15px;
+}
 
 .hero {
   text-align: center;
-  padding: 160px 30px;
+  padding: 150px 30px;
   font-family: var(--general-font-family);
   line-height: 1.5;
   background-color: var(--main-color-background);
 }
 
 .container-content {
-  padding: 160px 30px;
+  padding: 80px 30px;
 }
 
 .container-content p {
