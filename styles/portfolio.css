@@ -14,15 +14,15 @@
   background-color: var(--main-color-background);
 }
 
-.hero-about {
+.container-content {
   padding: 160px 30px;
 }
 
-.hero-about p {
+.container-content p {
   line-height: 1.5;
 }
 
-.hero-about a {
+.container-content a {
   font-size: 18px;
 }
 
@@ -50,6 +50,16 @@ h3 {
   font-size: 25px;
 }
 
+.container-content h3 {
+  font-size: 26px;
+}
+
+.portfolio-page h1 {
+  font-size: 50px;
+}
+.portfolio-grid {
+  text-align: center;
+}
 .btn-main-color {
   background-color: var(--main-color-dark);
   color: #ffffff;
