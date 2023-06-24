@@ -78,6 +78,15 @@ h3 {
   font-size: 26px;
 }
 
+.code-info a {
+  text-decoration: none;
+  color: var(--main-color-dark);
+}
+
+.code-info a:hover {
+  color: var(--main-color-light);
+}
+
 .portfolio-page h1 {
   font-size: 50px;
 }
@@ -123,7 +132,7 @@ h3 {
   line-height: 2;
 }
 
-footer {
+.contact-icons {
   text-align: center;
   margin: 30px 0;
   background: var(--main-color-background);
@@ -131,8 +140,7 @@ footer {
   line-height: 3;
   border-radius: 4px;
 }
-
-footer a {
+.contact-icons a {
   color: var(--main-color-dark);
   font-size: 30px;
   background-color: #ffffff;
@@ -142,7 +150,7 @@ footer a {
   transition: all 115ms ease-in-out;
 }
 
-footer a:hover {
+.contact-icons a:hover {
   color: var(--main-color-light);
 }
 
