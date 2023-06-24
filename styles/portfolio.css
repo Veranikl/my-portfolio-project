@@ -13,6 +13,11 @@
 .navbar-brand {
   font-family: var(--headline-font-family);
   font-size: 33px;
+  transition: all 115ms ease-in-out;
+}
+
+.navbar-brand:hover {
+  color: var(--main-color-light);
 }
 .active {
   color: var(--main-color-dark) !important;
@@ -29,6 +34,7 @@
   line-height: 1.5;
   background-color: var(--main-color-background);
   border-radius: 4px;
+  margin-bottom: 100px;
 }
 
 .container-content {
@@ -101,6 +107,9 @@ h3 {
   padding: 15px 30px;
 }
 
+.my-5 {
+  margin-top: 80px !important;
+}
 .btn-outline:hover {
   background-color: var(--main-color-dark);
   color: white;
@@ -112,7 +121,7 @@ h3 {
 
 footer {
   text-align: center;
-  margin: 60px 0;
+  margin: 30px 0;
   background: var(--main-color-background);
   padding: 50px;
   line-height: 3;
@@ -153,5 +162,23 @@ footer a:hover {
 
   .about-me-page {
     text-align: center;
+  }
+
+  .portfolio-page {
+    text-align: center;
+  }
+
+  .portfolio-page h1 {
+    font-size: 40px;
+  }
+
+  .contact-page h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+
+  .contact-page footer a {
+    font-size: 30px;
+    padding: 15px 22px;
   }
 }
